@@ -1,0 +1,14 @@
+# Copie este arquivo para config.yml (mesma pasta) e preencha com seus dados.
+# O config.yml não vai para o git porque guarda senhas e tokens.
+
+database:
+    host: "localhost"
+    port: 3306
+    username: "root"
+    password: "SUA_SENHA_DO_MYSQL"
+    name: "auto_escola"
+
+twilio:
+  account_sid: "SEU_ACCOUNT_SID"
+  auth_token: "SEU_AUTH_TOKEN"
+  from_number: "whatsapp:+14155238886"
