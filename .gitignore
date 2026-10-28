@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+tempCodeRunnerFile*
+.vscode/
+.env
+.venv/
+database/demo.db
+.coverage
+.claude/
+.DS_Store
+
+# Credenciais reais (MySQL e Twilio): cada um cria o seu a partir do config.example.yml
+src/config/config.yml
+launch.json
